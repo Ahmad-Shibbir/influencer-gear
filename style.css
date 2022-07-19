@@ -1,0 +1,57 @@
+body {
+    margin: 0 10%;
+}
+
+/* Header and navigation 
+------------------------------ */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+/* Top section style 
+--------------------- */
+.Top-section {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.top-section-info {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+button {
+    background-color: brown;
+    border-radius: 30px;
+    padding: 8px 12px;
+}
+
+/* company logo section 
+------------------------ */
+.company-logo {
+    display: flex;
+    justify-content: space-evenly;
+}
